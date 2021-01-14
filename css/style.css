@@ -122,11 +122,15 @@ body{
     .banner-content{
         margin-top: 20px;
     }
+
     .banner-content,.banner-img{
         text-align: center;
     }
+
     .contact-info{
         margin-left: 0;
     }
   }
   /* media quiry end here */
+
+  /* end code */
