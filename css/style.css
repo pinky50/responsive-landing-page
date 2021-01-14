@@ -1,12 +1,14 @@
+
+/* global css start here */
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900');
 
-*{
-    padding: 0;
-}
 body{
     font-family: 'Nunito Sans', sans-serif;
     background-color: #F7F8FA;
 }
+/* global css end here */
+
+/* header css start here */
 .logo img{
     height: 35px;
 }
@@ -20,13 +22,11 @@ body{
     color: #4D41CA!important;
 }
 
-@media only screen and (max-width: 600px) {
-    .logo img {
-        height: 27px;
-    }
-  }
+/* header css end here */
+
+/* banner css start here */
 .banner-content{
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .text-hilighter{
     color: #4D41CA;
@@ -43,11 +43,14 @@ body{
 }
 .banner img{
     width: 75%;
-   
 }
+/* banner css end here */
+
+/* woman jacket css start here */
 .jacket{
     background-color: white;
     border-radius: 12px;
+    padding: 20px;
 }
 .jacket-img img{
    height:300px;
@@ -69,6 +72,9 @@ body{
     font-size: 20px;
     color: gray;
 }
+/* woman jacket css end here */
+
+/* about css start here */
 .about{
     margin-top: 100px;
 }
@@ -76,7 +82,9 @@ body{
     height: 70px;
     margin-right: 20px;
 }
+/* about css end here */
 
+/* contact css start here */
 .contact-info{
     margin-left: 20px;
 }
@@ -91,3 +99,24 @@ body{
     border-radius: 5px;
     margin-right: 10px;
 }
+/* contact css end here */
+
+/* media quiry start here */
+@media only screen and (max-width: 600px) {
+    .logo img {
+        height: 25px;
+    }
+  }
+  @media only screen and (max-width: 990px) {
+    .nav{
+        display: block;
+        text-align: center;
+    }
+    .banner-content{
+        margin-top: 20px;
+    }
+    .banner-content,.banner-img{
+        text-align: center;
+    }
+  }
+  /* media quiry end here */
