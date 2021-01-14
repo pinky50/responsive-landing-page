@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:300,400,600,700,800,900');
+
+*{
+    padding: 0;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #F7F8FA;
+}
+.logo img{
+    height: 35px;
+}
+.nav-rightside{
+    flex: auto;
+}
+.nav-rightside li a{
+    color: black!important;
+}
+.nav-rightside li a:hover{
+    color: #4D41CA!important;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo img {
+        height: 27px;
+    }
+  }
+.banner-content{
+    margin-top: 100px;
+}
+.text-hilighter{
+    color: #4D41CA;
+}
+.buy-button{
+    background-color: #4D41CA;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 14px;
+    border: #4D41CA;
+}
+.buy-button i {
+    margin-right: 10px;
+}
+.banner img{
+    width: 75%;
+   
+}
+.jacket{
+    background-color: white;
+    border-radius: 12px;
+}
+.jacket-img img{
+   height:300px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}
+.jacket-img{
+    background-color: #F1F1F1;
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+.jacket-info{
+    padding: 20px 5px;
+    /* box-shadow:  0 4px 4px rgba(0, 0, 0, 0.4); */
+}
+.price del{
+    font-size: 20px;
+    color: gray;
+}
+.about{
+    margin-top: 100px;
+}
+.about-details img{
+    height: 70px;
+    margin-right: 20px;
+}
+
+.contact-info{
+    margin-left: 20px;
+}
+.contact-info i{
+    background-color:  #4D41CA;
+    padding: 7px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-right: 10px;
+}

@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
+    <header class="container">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand logo" href="#">
                 <img src="images/logo.png" alt="">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -19,29 +20,210 @@
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+                <ul class="nav justify-content-end nav-rightside fw-bold">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#shoes">Shoes</a>
+                    <a class="nav-link" href="#">Product</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#backpack">Backpack</a>
+                    <a class="nav-link" href="#">About Us</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#subscribe">Subscribe</a>
+                    <a class="nav-link" href="#">Contact Us</a>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
     </header>
-    <main>
-        <section>
-
+    <main class="container">
+        <section id="banner" >
+            <div class="banner">
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <div class="banner-content">
+                    <h1 class="fs-1 fw-bold text-hilighter">BE THE PENGUINS</h1>
+                    <h1 class="fs-1 fw-bold">OF WINTER</h1>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nobis autem quae molestiae asperiores quos assumenda voluptas quia esse ipsum quis?</p>
+                    <button class="btn btn-primary buy-button fw-bold"><i class="fas fa-shopping-cart mr-5"></i> BUY NOW</button>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <div class="banner-img mt-5">
+                    <img src="images/banner.png" alt="" class="img-fluid">
+                  </div>
+              </div>
+            </div>
         </section>
+        <section id="woman-jacket" class="mt-5">
+          <h1 class="mb-5 fw-bold text-center"><span class="text-hilighter">WOMAN</span> JACKET</h1>
+            <div class="row">
+              <div class="col-md-4 col-sm-12">
+                <div class="jacket">
+                  <div class="jacket-img mb-2">
+                    <img src="images/woman-jacket.png" alt="" class="img-fluid justify-content-center">
+                  </div>
+                  <div class="jacket-info">
+                    <h3 class="fw-bold">Yellow Coat Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias dicta.</p>
+                    <div class="price-and-button">
+                      <h2 class="fw-bold price"><del>$290</del> <span class="text-hilighter">$223</span></h2>
+                      <button class="btn btn-primary buy-button fw-bold"><i class="fas fa-shopping-cart mr-5"></i> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="jacket">
+                  <div class="jacket-img mb-2">
+                    <img src="images/woman-jacket2.png" alt="" class="img-fluid justify-content-center">
+                  </div>
+                  <div class="jacket-info">
+                    <h3 class="fw-bold">Ladies Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias dicta.</p>
+                    <div class="price-and-button">
+                      <h2 class="fw-bold price"><del>$290</del> <span class="text-hilighter">$223</span></h2>
+                      <button class="btn btn-primary buy-button fw-bold justify-content-end "><i class="fas fa-shopping-cart mr-5"></i> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-sm-12">
+                <div class="jacket">
+                  <div class="jacket-img mb-2">
+                    <img src="images/woman-jacket3.png" alt="" class="img-fluid justify-content-center">
+                  </div>
+                  <div class="jacket-info">
+                    <h3 class="fw-bold">woman Leather Jacket</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias dicta.</p>
+                    <div class="price-and-button">
+                      <h2 class="fw-bold price"><del>$290</del> <span class="text-hilighter">$223</span></h2>
+                      <button class="btn btn-primary buy-button fw-bold justify-content-end "><i class="fas fa-shopping-cart mr-5"></i> BUY NOW</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </section>
+        <section class="mt-5 mb-5">
+          <h1 class="mb-5 fw-bold text-center"><span class="text-hilighter">MAN</span> JACKET</h1>
+          <div class="row">
+            <div class="col-md-4 col-sm-12">
+              <div class="jacket">
+                <div class="jacket-img mb-2">
+                  <img src="images/men-jacket.png" alt="" class="img-fluid justify-content-center">
+                </div>
+                <div class="jacket-info">
+                  <h3 class="fw-bold">Snowboard Jacket Mens</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias dicta.</p>
+                  <div class="price-and-button">
+                    <h2 class="fw-bold price"><del>$290</del> <span class="text-hilighter">$223</span></h2>
+                    <button class="btn btn-primary buy-button fw-bold float-right "><i class="fas fa-shopping-cart mr-5"></i> BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="jacket">
+                <div class="jacket-img mb-2">
+                  <img src="images/men-jacket2.png" alt="" class="img-fluid justify-content-center">
+                </div>
+                <div class="jacket-info">
+                  <h3 class="fw-bold">Man Leather Jackets</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias dicta.</p>
+                  <div class="price-and-button">
+                    <h2 class="fw-bold price"><del>$290</del> <span class="text-hilighter">$223</span></h2>
+                    <button class="btn btn-primary buy-button fw-bold justify-content-end "><i class="fas fa-shopping-cart mr-5"></i> BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="jacket">
+                <div class="jacket-img mb-2">
+                  <img src="images/men-jacket3.png" alt="" class="img-fluid justify-content-center">
+                </div>
+                <div class="jacket-info">
+                  <h3 class="fw-bold">Man Casual jackets</h3>
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima alias dicta.</p>
+                  <div class="price-and-button">
+                    <h2 class="fw-bold price"><del>$290</del> <span class="text-hilighter">$223</span></h2>
+                    <button class="btn btn-primary buy-button fw-bold"><i class="fas fa-shopping-cart mr-5"></i> BUY NOW</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about">
+          <div class="row">
+            <div class="col-md-6 col-sm-12 ">
+              <div class="about-details d-flex mb-5">
+                <img src="images/find-fit.png" alt="" class="img-fluid">
+                <div class="about-content align-items-center justify-content-center">
+                  <h4 class="fw-bold">Find the perfect fit</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi doloribus consequuntur, velit aliquid explicabo ipsum?</p>
+                </div>
+              </div>
+              <div class="about-details d-flex mb-5 justify-content-center">
+                <img src="images/exchange.png" alt="" class="img-fluid">
+                <div class="about-content align-items-center ">
+                  <h4 class="fw-bold">Free Exchanges</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi doloribus consequuntur, velit aliquid explicabo ipsum?</p>
+                </div>
+              </div>
+              <div class="about-details d-flex mb-5">
+                <img src="images/contact.png" alt="" class="img-fluid">
+                <div class="about-content align-items-center justify-content-center">
+                  <h4 class="fw-bold">Contact Our Seller</h4>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi doloribus consequuntur, velit aliquid explicabo ipsum?</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <img src="images/about.png" alt="" class="img-fluid">
+            </div>
+          </div>
+        </section>
+        <section class="contact mt-5 mb-5">
+         <h1 class="text-center mb-5 fw-bold"><span class="text-hilighter">CONTACT</span> US</h1>
+         <div class="row">
+           <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputname" class="form-label">Name</label>
+                <input type="text" class="form-control" id="exampleInputname" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="floatingTextarea" class="form-label">Your Massage</label>
+                <textarea class="form-control" placeholder="Write your massage" id="floatingTextarea"></textarea>
+                
+              </div>
+              <button type="submit" class="btn btn-primary buy-button fw-bold">SUBMIT</button>
+            </form>
+           </div>
+           <div class="col-md-6">
+             <div class="contact-info mt-4 ml-2">
+               <h4 class="fw-bold">CONTACT INFORMATION</h4>
+               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, nisi.consectetur adipisicing elit. Vel, nisi.</p>
+               <p><b>ADDRESS : </b>112/24, south street</p>
+               <p><b><i class="fas fa-envelope"></i> MAIL : info@gmail.com</b></p>
+               <p><b>CALL : +(1234) 500 890</b></p>
+             </div>
+           </div>
+         </div>
+        </section>
+        
     </main>
-    
+    <footer class="footer text-center mt-4 mb-4">
+      <p class="fw-bold">Copyright © 2021 Designed by <span class="text-hilighter">Pinky malo</span></p>
+    </footer>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
